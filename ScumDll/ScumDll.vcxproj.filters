@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="search">
+      <UniqueIdentifier>{24f3ea6c-ccf3-4e67-82af-41661015ffe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f285ecb9-ad90-4b5f-835e-84d50f0ee7db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UObject">
+      <UniqueIdentifier>{34d52c55-975b-4cf7-a088-a424d31277cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UEngine">
+      <UniqueIdentifier>{8326a3dc-e94c-4b3a-8a2f-5c7bd4df05cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Search\Search.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UEngine\Engine.cpp">
+      <Filter>Game\UEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UObject\UObject.cpp">
+      <Filter>Game\UObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Search\Search.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UEngine\Engine.h">
+      <Filter>Game\UEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UObject\UObject.h">
+      <Filter>Game\UObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
